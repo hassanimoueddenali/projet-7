@@ -51,41 +51,39 @@
                         </ol>
                         <div class="card mb-4">
                             <div class="card-header">
-                                <i class="fas fa-table me-1"></i>
+                                <i class="fas fa-book me-1"></i>
+                                
                               
 
                                 <form class="row g-3">
                                     <div class="col-md-6">
-                                      <label for="inputEmail4" class="form-label">Email</label>
-                                      <input type="email" class="form-control" id="inputEmail4">
+                                      <label for="inputEmail4" class="form-label">Titre</label>
+                                      <input type="text" class="form-control" id="inputEmail4">
                                     </div>
                                     <div class="col-md-6">
-                                      <label for="inputPassword4" class="form-label">Password</label>
-                                      <input type="password" class="form-control" id="inputPassword4">
+                                      <label for="inputPassword4" class="form-label">Auteur</label>
+                                      <input type="text" class="form-control" id="inputPassword4">
                                     </div>
                                     <div class="col-12">
-                                      <label for="inputAddress" class="form-label">Address</label>
-                                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                      <label for="inputAddress" class="form-label">Prix</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="9.99$">
                                     </div>
                                     <div class="col-12">
-                                      <label for="inputAddress2" class="form-label">Address 2</label>
-                                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                      <label for="inputAddress2" class="form-label">Date de publication</label>
+                                      <input type="date" class="form-control" id="inputAddress2" placeholder="d/m/year">
                                     </div>
                                     <div class="col-md-6">
-                                      <label for="inputCity" class="form-label">City</label>
+                                      <label for="inputCity" class="form-label">Type</label>
                                       <input type="text" class="form-control" id="inputCity">
                                     </div>
                                     <div class="col-md-4">
-                                      <label for="inputState" class="form-label">State</label>
+                                      <label for="inputState" class="form-label">Langue</label>
                                       <select id="inputState" class="form-select">
                                         <option selected>Choose...</option>
                                         <option>...</option>
                                       </select>
                                     </div>
-                                    <div class="col-md-2">
-                                      <label for="inputZip" class="form-label">Zip</label>
-                                      <input type="text" class="form-control" id="inputZip">
-                                    </div>
+                                    
                                     <div class="col-12">
                                       <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -95,7 +93,7 @@
                                       </div>
                                     </div>
                                     <div class="col-12">
-                                      <button type="submit" class="btn btn-primary">Sign in</button>
+                                      <button type="submit" class="btn btn-primary">Add</button>
                                     </div>
                                   </form>
                             </div>
@@ -105,7 +103,8 @@
                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
-                                <i class="fas fa-book me-1"></i>
+                                
+                                <i class="fas fa-table me-1"></i>
                                 Ouvrages
                             </div>
                             <div class="card-body">
@@ -115,7 +114,9 @@
                                             <th>Titre</th>
                                             <th>Auteur</th>
                                             <th>Prix</th>
-                                            <th>Date de sortie </th>
+                                            <th>Date de publication </th>
+                                            <th>Type</th>
+                                            <th>Langue</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -124,7 +125,9 @@
                                             <th>Titre</th>
                                             <th>Auteur</th>
                                             <th>Prix</th>
-                                            <th>Date de sortie </th>
+                                            <th>Date de publication </th>
+                                            <th>Type</th>
+                                            <th>Langue</th>
                                            
                                         </tr>
                                     </tfoot>
@@ -134,9 +137,11 @@
                                             <td>Auteur 1</td>
                                             <td>100</td>
                                             <td>01/02/1999</td>
+                                            <th>Type</th>
+                                            <th>Langue</th>
                                             <th>
-                                                <button class="btn btn-primary">Modifie</button>
-                                                <button class="btn btn-secondary">Supprimer</button>
+                                                <button class="btn btn-info">Modifier</button>
+                                                <button class="btn btn-warning">Supprimer</button>
                                             </th>
                                         </tr>
                                         <tr>
@@ -144,29 +149,35 @@
                                             <td>Auteur 2</td>
                                             <td>200</td>
                                             <td>01/02/1999</td>
+                                            <th>Type</th>
+                                            <th>Langue</th>
                                             <th>
-                                                <button class="btn btn-primary">Modifie</button>
-                                                <button class="btn btn-secondary">Supprimer</button>
+                                                <button class="btn btn-info">Modifier</button>
+                                                <button class="btn btn-warning">Supprimer</button>
                                             </th>
                                         </tr>
                                         <tr>
                                             <td>Livre 3</td>
-                                            <td>Auteur 2</td>
+                                            <td>Auteur 3</td>
                                             <td>200</td>
                                             <td>01/02/1999</td>
+                                            <th>Type</th>
+                                            <th>Langue</th>
                                             <th>
-                                                <button class="btn btn-primary">Modifie</button>
-                                                <button class="btn btn-secondary">Supprimer</button>
+                                                <button class="btn btn-info">Modifier</button>
+                                                <button class="btn btn-warning">Supprimer</button>
                                             </th>
                                         </tr>
                                         <tr>
                                             <td>Livre 4</td>
-                                            <td>Auteur 2</td>
+                                            <td>Auteur 4</td>
                                             <td>200</td>
                                             <td>01/02/1999</td>
+                                            <th>Type</th>
+                                            <th>Langue</th>
                                             <th>
-                                                <button class="btn btn-primary">Modifie</button>
-                                                <button class="btn btn-secondary">Supprimer</button>
+                                                <button class="btn btn-info">Modifier</button>
+                                                <button class="btn btn-warning">Supprimer</button>
                                             </th>
                                         </tr>
                                         
