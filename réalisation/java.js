@@ -116,3 +116,9 @@ function validate() {
     }  
     return isValid;
 }
+function hide(){
+    document.querySelector('#formSubmit').style.display ='none' ;
+}
+function Show (){
+    document.querySelector('#formSubmit').style.display ='flex' ;
+}

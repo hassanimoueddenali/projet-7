@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Gestion d'Ouvrages</title>
     <link href="style.css" rel="stylesheet" /> 
+    <link rel="stylesheet" href="custom.css">
 
 </head>
 
 
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-        <!-- Navbar -->
         <a class="navbar-brand ps-3" href="réalisation.html">Gestion d'Ouvrages v1.0</a>
-        <!-- Sidebar -->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
                 class="fas fa-bars"></i></button>
     </nav>
@@ -46,16 +45,17 @@
                     <ol class="breadcrumb mb-4">
                     
                     </ol>
+                    <div><button id="Show" onclick=Show()>show</button></div>
                     <div class="card mb-4">
-
+                        
                         <div class="card-header">
                             <div>📝ouvrage : </div>
                         </div>
                         <div class="card-body">
-
                             <form id="formSubmit"  class="row g-3">
                                 
                                 <div class="col-md-6">
+                                    <button id="Hide" onclick=hide()>hide</button>
                                     <label for="inputTitle" class="form-label">Titre :</label>
                                     <input required type="text" class="form-control" id="inputTitle" maxlength="30">
                                 </div>
