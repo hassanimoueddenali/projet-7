@@ -61,7 +61,7 @@ function insertNewRow(work) {
     deleteButton.setAttribute("onclick", 'onDelete(this)')
     cell7.appendChild(editButton)
     cell7.appendChild(deleteButton)
-
+ hide();
 }
 function onEdit(td) {
     selectedRow = td.parentElement.parentElement;

@@ -28,3 +28,12 @@
     background-color:rgb(134, 230, 230);
     border: 3px solid;
 }
+#submitButton{
+    background-color: rgb(84, 161, 97);
+    border-radius: 9px;
+}
+#submitButton:hover{
+    background-color: rgb(134, 230, 230);
+    border: 3px solid ;
+    border-radius: 11px;
+}

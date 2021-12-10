@@ -3,8 +3,6 @@ document.getElementById("formSubmit").addEventListener("submit", function (event
     var work = readwork();
     insertNewRow(work);
 });
-
-
 function readwork() {
 
     var work = {};
@@ -31,16 +29,16 @@ function insertNewRow(work) {
     newRow.insertCell(0).innerHTML = work.title;
 
     newRow.insertCell(1).innerHTML = work.author;
-    
+
     newRow.insertCell(2).innerHTML = work.price;
-        
-    newRow.insertCell(3).innerHTML= work.date;
-    
-    newRow.insertCell(4).innerHTML= work.language
-   
+
+    newRow.insertCell(3).innerHTML = work.date;
+
+    newRow.insertCell(4).innerHTML = "";
+
     cell6 = newRow.insertCell(5)
     cell6.innerHTML = work.type
     cell7 = newRow.insertCell(6)
 
-
+ alert.getElementById("inputPrix");
 }
