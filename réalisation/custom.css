@@ -7,3 +7,24 @@
 .sb-sidenav-footer {
     background-color: rgb(157, 189, 162) !important;
 }
+#Hide{
+    margin: 0px 140px 0px 0px;
+    padding: 2px 31px 0px 29px;
+    border-radius: 9px;
+    background-color: rgb(97, 146, 105);
+}
+#Show {
+    margin: 0px 140px 0px 0px;
+    padding: 2px 31px 0px 29px;
+    border-radius: 9px;
+    background-color: rgb(84, 161, 97);
+}
+#Hide:hover{
+    background-color: rgb(134, 230, 230);
+    border: 3px solid ;
+    border-radius: 11px;
+}
+#Show:hover{
+    background-color:rgb(134, 230, 230);
+    border: 3px solid;
+}
